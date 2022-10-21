@@ -42,9 +42,40 @@ input {
     border-radius: 0.6em;
     border: 1px solid #ccc;
     height: 2em;
-    width: 100%;
+    border-right: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 40%;
     color: #e5e5e5;
+    margin: 1em 0;
 }
+
+input:hover, input:focus {
+    width: 100%;
+    transition: 2s all;
+}
+
+i {
+    padding: 2.3px 1em;
+    background: #161118;
+    height: 2em;
+    display: flex !important;
+    border-radius: 0.6em;
+    border: 1px solid #fff;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    align-items: center;
+}
+
+.input-search {
+    color: #00b420;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .card-character {
     background: #0b0c12;
     color: #009f08;

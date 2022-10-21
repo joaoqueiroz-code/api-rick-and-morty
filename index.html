@@ -9,13 +9,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main class="container-principal">
         <section class="container-form">
-            <input id="pesquisaPersonagem" type="text">
-            <button onclick="pullCharacter()">Pesquisar</button>
+            <div class="input-search">
+                <input id="pesquisaPersonagem" type="text">
+                <i class="fa fa-magnifying-glass"></i>
+            </div>
+            <!-- <button onclick="pullCharacter()">Pesquisar</button> -->
         </section>
 
         <section id="containerPersonagens" class="container-character">
